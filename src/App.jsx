@@ -1,35 +1,74 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+
+
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className='Main'>
+
+
+      <div className="Header1" >
+        <h1> Welcome to the MAST Coding Club.</h1>
+        </div>
+          <div className='P1'>
+            <p> A community built around the idea of working and learning together.</p>
+          </div>
+          <div className="IntrestButton">
+
+              <a href="https://forms.office.com/r/mMFD5aub0n"> 
+                <button className='Button' >Join Now</button>
+              </a>
+
+          </div>
+      
+      <div className="Body">
+      <div className='Information'>
+        <div className='Mission_Statment'>
+        <h2>Mission Statment:</h2>
+        <p> Our Mission statement is to provide a safe space in order to
+          nurture the passion of coding. While teaching to work in groups and in enviorments 
+          like the current job market.G</p>
+        </div>
+        <div className='Goals'>
+          <h2> Goals</h2>
+          <ul>
+            <li>To teach the thought process of a programmer</li>
+            <li>For students to develope a passion and habit for programing</li>
+            <li>To allow more advance students to compete</li>
+          </ul>
+        </div>
+        <div className='Activities'>
+          <h2>Activities:</h2>
+          <p>Activities to reach the goals set</p>
+          <ul>
+            <li>Meetings every week on thursday</li>
+            <li>Allowing students to compete</li>
+            <li>Pushing student to work on a protfolio</li>
+            <li>increase chances of a future hire in this work space.</li>
+          </ul>
+
+        </div>
+        <div className='Constitution'>
+          <h2>Constitution:</h2>
+          <div>
+          <a href="/Constitution.pdf" target='_blank'> <button className='ConsButton'>This is the Constitution.</button></a>
+        </div>
+        <div className='Footer'>
+          <footer>
+            <p>social media soon to come!!</p>
+          </footer>
+        </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+
+    
+    </div>
+  );
 }
 
-export default App
+export default App;
