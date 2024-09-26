@@ -30,7 +30,7 @@ function App() {
         <h2>Mission Statment:</h2>
         <p> Our Mission statement is to provide a safe space in order to
           nurture the passion of coding. While teaching to work in groups and in enviorments 
-          like the current job market.G</p>
+          like the current job market.</p>
         </div>
         <div className='Goals'>
           <h2> Goals</h2>
@@ -58,7 +58,7 @@ function App() {
         </div>
         <div className='Footer'>
           <footer>
-            <p>social media soon to come!!</p>
+            <p>Social Media soon to come!!</p>
           </footer>
         </div>
         </div>
